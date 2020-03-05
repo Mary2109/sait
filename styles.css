@@ -100,9 +100,12 @@ float: left;
     float: left;
     padding-top: 100px;
 }
+.skills-right-photo{
+    width: 30%;
+}
 .skills-left{
     float: left;
-    width: 600px;
+    width: 50%;
 }
 .skills-left-title{
     font-size: 32px;
