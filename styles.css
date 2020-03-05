@@ -151,9 +151,13 @@ float: left;
     margin-bottom: 50px;
 }
 .video-preview{
-    width: 60%;
+    background-image: url("Rectangle 5.png");
+    width: 90%;
+    height: 600px;
     text-align: center;
     margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20%;
 }
 .project{
     padding-top: 30px;
