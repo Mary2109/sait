@@ -1,0 +1,305 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 80vw;
+}
+.main-layout {
+    padding-top: 185px;
+    padding-bottom: 257px;
+    background: #EEEFF1;
+    overflow: hidden;
+}
+.main-layout-right{
+    width: 50%;
+    float: left;
+}
+.main-layout-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.main-layout-right-title{
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.main-layout-right-text{
+    font-size: 16px;
+    color: #727272;
+    width: 525px;
+}
+.main-layout-right-key{
+    background: #34547A;
+    margin-top: 60px;
+    width: 225px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    transition: 2s all linear;
+}
+.about-us-title{
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    padding-top: 80px;
+}
+.about-us-text{
+    color: #727272;
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.advantages{
+    background: #34547A;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.number-item-left{
+float: left;
+}
+.number-item-right{
+    float: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.number-item{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.number-item-right-title{
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.number-item-right-text{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.skills{
+    padding-top: 100px;
+    padding-bottom: 257px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.skills-right{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding-top: 100px;
+}
+.skills-left{
+    float: left;
+    width: 600px;
+}
+.skills-left-title{
+    font-size: 32px;
+    color:#000000;
+    margin-bottom: 50px;
+    padding-top: 210px;
+    width: 525px;
+}
+.skills-left-text{
+    color: #727272;
+    font-size: 16px;
+    margin-top: 40px;
+    width: 480px;
+    margin-bottom: 25px;
+}
+.skills-left-text-line{
+    width: 300px;
+    height: 5px;
+    background: #C4C4C4;
+}
+.skills-left-text-line-more{
+    width: 70%;
+    height: 100%;
+    background: #34547A;
+    border-radius: 10px;
+}
+.video{
+    background: #EEEFF1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.video-title{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 300px;  
+}
+.video-text{
+    color: #727272;
+    font-size: 16px;
+   text-align: center;
+    width: 525px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+.video-preview{
+    width: 60%;
+    text-align: center;
+    margin-left: 5%;
+}
+.project{
+    padding-top: 30px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.project-item {
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+.project-item-text {
+    background-image:url("project-text.png");
+}
+.project-item-computer {
+    background-image:url("project-laptop.png");
+}
+.project-item-fon{
+    box-shadow: inset 0 0 200px 80px #34547A;
+}
+.project-item-computer-view{
+    padding: 27% 37%;
+}
+.clients{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.clients-microsoft{
+    float: left;
+    text-align: center;
+    margin-right: 50px;  
+}
+.form{
+    padding-top: 100px;
+    padding-bottom: 95px;
+    background: #EEEFF1;
+}
+.form-title{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.form-text{
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    width: 525px;
+    margin-left: 30%;
+}
+.form-communicate{
+    margin-top: 55px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin-left: 35%;
+}
+.form-column{
+    width: 200px;
+    float: left;
+}
+.form-column-right {
+    margin-left: 20px;
+}
+.form-field{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.form-communicate-message{
+    color: #5F5D5D;
+    font-size: 14px;
+    display: block;
+    width: 420px;
+    margin-top: 80px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.form-key{
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #34547A;
+    padding:20px 35px;
+    width: 190px;
+    margin-top: 50px;
+    margin-left: 45%;
+    transition: 2s all linear;
+}
+.footer{
+    background: #34547A;
+    overflow: hidden;
+}
+.footer-left{
+    float: left;
+    margin-left: 125px;
+    padding-top: 54px;
+    padding-bottom: 50px;
+}
+.footer-left-title{
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.footer-left-text{
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.footer-right{
+    float: left;
+    overflow: hidden;
+    padding-left: 650px;
+}
+.footer-right-vk{
+    float: left;
+    margin-right: 25px;
+    margin-top: 64px;
+}
+.main-layout-right-key:hover{
+    background-color: coral;
+}
+.form-key:hover{
+    background-color: coral;
+}
+.header{
+    padding-top: 60px;
+    position: fixed;
+    margin-left: 250px;
+}
+.header-left{
+    float: left;
+    margin-right: 500px;  
+}
+.header-right{
+    float: left;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.active{
+    text-shadow: 5px 5px 5px black;
+}
